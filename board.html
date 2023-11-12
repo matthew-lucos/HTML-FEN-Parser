@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="styles.css"/>
+	<link rel="stylesheet" href="interactivity_styles.css"/>
+</head>
+
+<body>
+
+	<div id="flex-content">
+		<div id="block-content">
+			
+			<div id="board"></div>
+			
+			<form id="fen">
+				<button id="parse">Parse FEN</button>
+				<input id="fenstr" type="text" autocomplete="off" size="35"/>
+			</form>
+			
+		</div>
+	</div>
+	
+	
+	<!-- Shortened querySelector Syntax -->
+	<script src="querysel.js"></script>
+	
+	<!-- Generate the Board -->
+	<script src="board_gen.js"></script>
+	
+	<!-- Parse the input FEN String -->
+	<script src="fen_parse.js"></script>
+
+</body>
+
+</html>
